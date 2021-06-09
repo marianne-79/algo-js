@@ -10,4 +10,7 @@ if (rep != 42) {
 }
 else { 
 	console.log("c'est genial !");
-}
+ }	
+	}
+
+	
