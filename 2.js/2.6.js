@@ -22,3 +22,8 @@ let nf = new Number(readlineSync.question(" Choisit ton numero favorit entre 1 e
 	break;
 	}
 }
+
+
+//Exercice 2.6
+//Faites un programme qui demande à l'utilisateur d'entrer un nombre entre 1 et 7. En fonction du nombre,
+//affichez le jour de la semaine qui correspond. (1 => lundi, 2 => mardi, etc...)

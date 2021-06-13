@@ -13,3 +13,10 @@ total1 += Bonnie[i];
 } 
 console.log(total1/Bonnie.length);
 console.log(total2/Clyde.length);
+
+
+//Exercice 3.2
+//Écrivez un programme qui calculera la valeur moyenne d'un tableau donné.
+//Testez-le avec les tableaux suivants :
+//[1, 2, 3, 4, 5] => 3
+//[100, 101, 102] => 101

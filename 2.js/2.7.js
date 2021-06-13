@@ -13,7 +13,10 @@ for (let i = 0; i < n; i++) {
 
 // Pierre j'espere que tu ne regarde pas l'orthographe
 
-
+//Exercice 2.7
+//Créez un programme qui demande à l'utilisateur d'entrer un numéro nommé n. Puis demandez-lui le ntemps 
+//de saisir un nouveau numéro. A la fin afficher la somme de tous les nombres collectés de cette façon.
+//Exemple : Si l'utilisateur saisit 3pour nthen 1, 2et 3, le programme doit afficher 6.
 
 
 

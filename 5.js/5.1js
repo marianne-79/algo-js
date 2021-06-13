@@ -1,0 +1,28 @@
+const readlineSync = require("readline-sync");
+
+
+function askTvSerie  {
+    Nom: {
+        serie: "X-files";
+        an:"1993";
+        actr : " David Duchovny";
+    };
+    arctc: "Gillian Anderson"
+    music: "Mark Snow",
+};
+
+    console.log(askTvSerie.series.an.actr.actric.music); 
+
+
+
+
+//Exercice 5.1
+//Créez une fonction nommée askTvSerie()qui demandera à l'utilisateur les données suivantes 
+//sur sa série télévisée préférée :
+//Nom
+//Année de production
+//Noms des acteurs (il peut y en avoir autant que l'utilisateur le souhaite)
+//Cette fonction doit rassembler toutes les données dans un seul objet et les renvoyer.
+//La structure des données doit être élégante.
+//Créez un programme qui utilise cette fonction pour générer un objet de série télévisée et l'afficher à l'utilisateur
+// au format JSON.
