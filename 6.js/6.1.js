@@ -34,7 +34,7 @@ console.log( " xPos : " + circle.xPos + " yPoset : " + circle.yPoset + " radius 
 //entre le perimètre d'un cercle et son diametre.
 //Merci à Adrien car il m'a expliqué tant bien que mal le pq mon code ne fonctionnais pas , j'avais pas compris qu'il manquait 
 //un partie de mon calcule le Math.pow et je n'avait pas mis mes argument et mes texte dans le bon sens et mon move 
-//ne fonctionnais pas car je n'avait pas compris que je devais mettre 
+//ne fonctionnais pas car je n'avait pas compris que je devais mettre chiffre pour donne une distance de position  
 
 //Exercice 6.1
 //Créez une classe nommée Circle avec les attributs xPos, yPoset radius. Ajoutez une méthode nommée move
