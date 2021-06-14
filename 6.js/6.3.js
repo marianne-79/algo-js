@@ -5,8 +5,7 @@ const readlineSync = require("readline-sync");
 
 
 
-
-
+//j'ai manqué de temps et de neurones pour celui ci 
 
 
 
