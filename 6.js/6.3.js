@@ -1,6 +1,20 @@
 const readlineSync = require("readline-sync");
 
 
+class Rectangle {
+
+constructor (topLeftXPos, TopLeftYPos, width, length) {
+    this.topLeftXPos = xPos;
+    this.TopLeftYPos = yPoset;
+    this.width = width;
+    this.length = length;
+}
+
+collides(otherRectangle)  {
+    if (this.x < otherRectangle.x + otherRectangle.width &&
+        this.x + this.width > otherRectangle.x &&
+        this.y < otherRectangle.y + otherRectangle.length &&
+        this.length + this.y > otherRectangle.y ) {
 
 
 

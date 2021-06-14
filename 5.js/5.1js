@@ -19,8 +19,6 @@ function askTvSerie() {
     console.log(askTvSerie()); 
 
 
-
-
 //Exercice 5.1
 //Créez une fonction nommée askTvSerie()qui demandera à l'utilisateur les données suivantes 
 //sur sa série télévisée préférée :
