@@ -1,22 +1,22 @@
 const readlineSync = require("readline-sync");
 
-
 function askTvSerie() {
     let serie = {
-        acteurs: []
+        actors: []
     }
 
-        serie.nom = readlineSync.question(" Quel est ta serie prefere ?");
-        serie.annee = new Number(readlineSync.question(" Quel est l'anne de sortie ? "));
-    
-    let nbrAct = new Number(readlineSync.question(" Combien y a t'il d'acteus principaux ?"));  
-    for (let i = 1; i <= nbrAct; i++) {
-        serie.acteurs.push(readlineSync.question(" Le nombre d'acteurs dans " + i + "la serie : "));
-    }  
-     return serie; 
+    serie.name = readlineSync.question("Name of the serie: ")
+    serie.year = new Number(readlineSync.question("Year of release : "))
+
+    let nActors = new Number(readlineSync.question("How many actors do you have in there?: "))
+    for (let i = 1; i <= nActors; i++) {
+        serie.actors.push(readlineSync.question("Actor number "+i+" of the serie : "))
     }
-    
-    console.log(askTvSerie()); 
+
+    return serie
+}
+
+console.log(askTvSerie())
 
 
 //Exercice 5.1
