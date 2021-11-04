@@ -1,32 +1,33 @@
-const readlineSync = require("readline-sync");
-
-
 class Circle {
-
-    constructor(xPos, yPoset, radius) {
-        this.xPos = xPos;
-        this.yPoset = yPoset;
-        this.radius = radius;
+    constructor(xPos, yPos, radius) {
+        this.xPos = xPos
+        this.yPos = yPos
+        this.radius = radius
     }
 
-move (xOffset, yOffset) {
-        this.xPos += xOffset;
-        this.yPoset += yOffset;
+    get surface() {
+        return Math.PI * Math.pow(this.radius, 2)
+    }
+
+    move(xOffset, yOffset) {
+        this.xPos += xOffset
+        this.yPos += yOffset
+    }
+
+    show() {
+        console.log(" xPos : " + circle.xPos + " yPos : " + circle.yPos + " radius : " + circle.radius + " surface : " + circle.surface)
+    }
 }
 
-get surface() {
-return Math.PI * Math.pow(this.radius, 2 );
- }
-}
+let circle = new Circle(0,0,2)
 
-let circle = new Circle(1, 3, 18);
-
-
-console.log( " xPos : " + circle.xPos + " yPoset : " + circle.yPoset + " radius : " + circle.radius + " surface : " + circle.surface);
-circle.move(4 , 5);
-console.log( " xPos : " + circle.xPos + " yPoset : " + circle.yPoset + " radius : " + circle.radius + " surface : " + circle.surface);  
-
-
+circle.show()
+circle.move(1,1)
+circle.show()
+circle.move(-1,5)
+circle.show()
+circle.move(2,-2)
+circle.show()
 
 // je créer ma class Circle avec les attributs demandés dans l'ennoce. Ensuite je crée mon move avec les 2 noms demandés 
 // comme mis dans la doc MND et après je fait mon assenceur comme mis dans ta doc.
